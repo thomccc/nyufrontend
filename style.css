@@ -28,3 +28,16 @@ img {
 .column {
   flex: 50%;
 }
+
+#wrapper {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #F88DAD;
+  border：5px solid black;
+}
