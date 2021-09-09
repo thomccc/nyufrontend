@@ -1,0 +1,30 @@
+
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding: 10px;
+  margin:15px;
+  }
+  ul#horizontal-list li {
+    display: inline;
+    padding:5px;
+  }
+
+p   {  padding: 15px 30px 5px;
+      text-align: center;
+    }
+
+
+.row {
+  display: flex;
+  padding:50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.column {
+  flex: 50%;
+}
