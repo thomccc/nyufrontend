@@ -1,21 +1,43 @@
 
 
-ul#horizontal-list {
+ul.horizontal-list {
   min-width: 696px;
   list-style: none;
-  padding: 10px;
-  margin:15px;
+  padding: 40px;
+  background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
-  ul#horizontal-list li {
+  ul.horizontal-list li {
     display: inline;
     padding:5px;
   }
 
 p   {  padding: 15px 30px 5px;
       text-align: center;
+      color: white;
     }
 
+h1 {
+  color:green;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
+}
+
+h4  {
+  color: white;
+  padding:10px;
+}
+
+body {
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .row {
   display: flex;
   padding:50px;
@@ -40,4 +62,15 @@ img {
 button {
   background-color: #F88DAD;
   border：5px solid black;
+}
+
+.column { transition: all .2s ease-in-out; }
+.column:hover { transform: scale(1.1); }
+
+
+
+.top-link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
